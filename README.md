@@ -16,3 +16,10 @@ Given that I am a user who has a sense of humor, likes puppies, and needs to see
 ![picture](Digital-Mockup.jpg "Drawn by Myrla")
 
 
+## Rough Breakdown of Tasks:
+Kate-Layout/Styling
+Kyle-Random insult generator
+Myrla-Weather generator
+Breon-Random dog photo generator
+
+Ultimately everyone will collaborate, when needed, on all aspects of the project. 
