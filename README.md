@@ -14,5 +14,3 @@ Given that I am a user who has a sense of humor, likes puppies, and needs to see
 ## Website Art
 ![picture](Hand-Drawn-Mockup.JPG "Drawn by Kate")
 ![picture](Digital-Mockup.jpg "Drawn by Myrla")
-
-
