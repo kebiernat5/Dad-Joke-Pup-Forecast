@@ -11,6 +11,8 @@ How does it work?
 Given that I am a user who has a sense of humor, likes puppies, and needs to see the weather every day. When I type any city into a search query, a photo of a random puppy is generated along with a random insult, this will include the weather forecast for that day and the next 5 days of the searched city. 
 
 ## User Story
+As an incredibly good looking human with a macabre sense of humor, I have a need for various insults coupled with a need to check the weather. I don’t always remember to look up insults, nor do I remember what the weather is going to be. I also like to know what the weather will be for the upcoming week, so I am not ill-prepared for my day. And puppies make me happy.
+
 ## Website Art
 ![picture](Hand-Drawn-Mockup.JPG "Drawn by Kate")
 ![picture](Digital-Mockup.jpg "Drawn by Myrla")
