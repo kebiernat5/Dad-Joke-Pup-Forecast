@@ -23,3 +23,7 @@ Myrla-Weather generator
 Breon-Random dog photo generator
 
 Ultimately everyone will collaborate, when needed, on all aspects of the project. 
+## APIs Used
+For the weather we're going to be using Storm Glass" https://stormglass.io/
+For random insults we will use “Evil Insult Generator” https://evilinsult.com/api/
+For random dog pics we will use “Random Dog” https://random.dog/woof.json
