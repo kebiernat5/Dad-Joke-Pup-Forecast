@@ -1,4 +1,26 @@
 
+// fetch("https://icanhazdadjoke.com/")
+//   .then(function (response) {
+//     document.getElementById("dad");
+//   })
+//   .catch(function (err) {
+//     // If an error occured, you will catch it here
+//   });
+
+fetch("https://icanhazdadjoke.com/", {
+  headers: {
+    'accept': "application/json",
+  }
+}).then((res) => res.json())
+.then(data => displayData(data));
+
+var mainContainer = document.getElementById("dad");
+
+function displayData(data){
+    console.log(data)
+}
+
+
 var pupKey = "https://random.dog/57213dc8-2617-44c9-b72d-a0fb330c194c.jpg";
 
 function getRandomPup () {
@@ -19,4 +41,5 @@ console.log(fetch("https://icanhazdadjoke.com/")
 
   var mainContainer = document.getElementById("dad");
   var jsonStr = JSON.stringify(jsonVar);
+
 
