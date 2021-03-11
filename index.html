@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angry Pup Forecast</title>
+    <link rel="stylesheet" href = "style.css"/>
 </head>
 <body>
     <!-- Creates a landing space for the user and a place to search for a city. -->
@@ -29,10 +30,22 @@
 <section class="ajax-section">
     <!-- Creates a place for previously searched cities -->
     <div id="container">
-        <ul class="cities"></ul>
+        <ul class="cities">
+            <li id="city">
+                <h2 id="city-name" data-name="...">
+                    <span>...</span>
+                    <sup>...</sup>
+                </h2>
+                <span id="city-temp">... <sup>°C</sup></span>
+                <figure>
+                    <img src="..." alt="..." id="city-icon">
+                    <figcaption>...</figcaption>
+                </figure>
+            </li>
+        </ul>
     </div>
 </section>
-
+<script src = "script.js"></script>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.
