@@ -1,11 +1,15 @@
 
-// fetch("https://icanhazdadjoke.com/")
-//   .then(function (response) {
-//     document.getElementById("dad");
-//   })
-//   .catch(function (err) {
-//     // If an error occured, you will catch it here
-//   });
+fetch("https://icanhazdadjoke.com/")
+  .then(function (response) {
+    document.getElementById("dad");
+    var dadEl = document.querySelector(".dad");
+    dadEl.textContent = object.joke 
+    dadEl.appendChild(dadEl);
+  })
+  .catch(function (err) {
+    // If an error occured, you will catch it here
+  });
+
 
 fetch("https://icanhazdadjoke.com/", {
   headers: {
