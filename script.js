@@ -22,14 +22,17 @@ function getRandomImage() {
   console.log(url);
   console.log(image);
 
-  for (let index = 0; index < 150; index++) {
+  searchBtn.addEventListener("click", function () {
+      
+    for (var i = 0; i < 150; i++) {
     image.innerHTML = `<img src="https://random.dog/${array[index]}">`;
-  }
-
+  } 
   // set the src of the image object
   image.src = url;
-}
 getRandomImage();
+ 
+})}
+
 
 console.log(
   fetch("https://icanhazdadjoke.com/")
