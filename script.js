@@ -22,30 +22,17 @@ function getRandomImage() {
   console.log(url);
   console.log(image);
 
-  searchBtn.addEventListener("click", function () {
-      
-    for (var i = 0; i < 150; i++) {
+  //   searchBtn.addEventListener("click", function () {
+
+  for (var i = 0; i < 150; i++) {
     image.innerHTML = `<img src="https://random.dog/${array[index]}">`;
-  } 
-  // set the src of the image object
-  image.src = url;
 getRandomImage();
- 
-})}
+    // set the src of the image object
+    image.src = url;
+  }
+}
+// )}
 
-
-console.log(
-  fetch("https://icanhazdadjoke.com/")
-    .then(function (response) {
-      // The JSON data will arrive here
-    })
-    .catch(function (err) {
-      // If an error occured, you will catch it here
-    })
-);
-
-var mainContainer = document.getElementById("dad");
-var jsonStr = JSON.stringify(jsonVar);
 
 fetch("https://icanhazdadjoke.com/", {
   headers: {
