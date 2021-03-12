@@ -48,6 +48,7 @@
 
 button {
     cursor: pointer;
+    border: solid
 }
 
 input {
@@ -73,6 +74,20 @@ img {
     background-color: var(--text_light);
     border-color: var(--text_medium);
     border-width: 5px;
+}
+
+#dad {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px;
+  margin:auto;
+  margin-top: 30px;
+  width: 400px;
+  align-content: center;
+  border:solid;
+  border-color: var(--text_medium);
+  background-color: var(--text_light);
 }
 
 ul {
