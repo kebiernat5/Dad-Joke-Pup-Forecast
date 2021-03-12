@@ -1,102 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dad Joke Pup Forecast</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href = "style.css"/>
+</head>
+<body>
     <!-- Creates a landing space for the user and a place to search for a city. -->
     <section class="top-banner">
-      <div id="container">
-        <h1 class="heading">Dad Joke Pup Forecast</h1>
-        <nav class="navbar navbar-light bg-light">
-          <div class="form-inline">
-            <input
-              class="form-control mr-sm-2"
-              id="city-name"
-              type="search"
-              placeholder="Search for a City"
-              aria-label="Search"
-            />
-
-            <button
-              class="btn btn-outline-success my-2 my-sm-0"
-              id="searchBtn"
-              type="submit"
-            >
-              Search
-            </button>
-
-            <button
-              class="btn btn-outline-success mb-3"
-              id="clearHistoryBtn"
-              type="submit"
-            >
-              Clear History
-            </button>
-            <div id="history"></div>
-          </div>
-        </nav>
-      </div>
-    </section>
-    <!-- <form>
+        <div id="container">
+            <h1 class="heading">Dad Joke Pup Forecast</h1>
+            <nav class="navbar navbar-light bg-light">
+                <div class="form-inline">
+                  <input class="form-control mr-sm-2" 
+                  id="city-name" 
+                  type="search" 
+                  placeholder="Search for a City" 
+                  aria-label="Search">
+            
+                  <button class="btn btn-outline-success my-2 my-sm-0" 
+                  id="searchBtn" 
+                  type="submit">Search</button>
+            
+                  <button class="btn btn-outline-success mb-3" 
+                  id="clearHistoryBtn" 
+                  type="submit">Clear History</button>
+                  <div id="history">  
+                  </div>
+                </div>
+            <!-- <form>
             <input type = "text" placeholder="Search for a City">
             <button type = "submit">SUBMIT</button>
             <span class="msg"></span>
         </form> -->
+    </div>
+</section>
+<!-- Creating a space for the puppy photo to land -->
+<section class="puppy">
 
-    <!-- Creating a space for the puppy photo to land -->
-    <section class="puppy"></section>
-    <!-- Creating a space for the dad joke to land -->
-    <section id="dad"></section>
+</section>
+<!-- Creating a space for the dad joke to land -->
+<section id="dad">
 
-    <!--Myrla-->
+</section>
 
-    <form class="col-10">
-      <div class="row currentCity">
+<!--Myrla-->
+
+
+</nav>
+
+
+    <form class="col-10 currentCity">
+        <div class="row currentCity">
         <div class="col-12">
-          <span id="currentCity"></span>
+        <span id="currentCity"></span>    
         </div>
-      </div>
-      <div class="col-10">
-        <div class="rowTemp">
-          <div class="col-12">
-            <span id="temp"></span>
-          </div>
         </div>
         <div class="col-10">
-          <div class="rowHum">
+            <div class="rowTemp">
             <div class="col-12">
-              <span id="humidity"></span>
+            <span id="temp"></span>    
             </div>
-          </div>
-          <div class="col-10">
-            <div class="rowUv">
-              <div class="col-12">
-                <span id="uvi"></span>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </form>
-    <div id="searchedCities"></div>
-    <div class="forecastContainer">
-      <div class="col-md-4"></div>
-      <div class="col-md-8">
+            <div class="col-10">
+                <div class="rowHum">
+                <div class="col-12">
+                <span id="humidity"></span>    
+                </div>
+                </div>
+                <div class="col-10">
+                    <div class="rowUv">
+                    <div class="col-12">
+                    <span id="uvi"></span>    
+                    </div>
+                    </div>
+                    
+    </div>
+</div>
+</div>
+</form>
+<div id="searchedCities"></div>
+<div class="forecastContainer">
+<div class="col-md-4">
+</div>
+    <div class="col-md-8">
         <div id="dashboard"></div>
         <div id="forecast" class="row">
-          <h3></h3>
-        </div>
-      </div>
-    </div>
+            <h3></h3>
+            
+</div>
+</div>    
 
-    <!--Myrla-->
+<!--Myrla-->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="script.js"></script>
-  </body>
+
+
+
+
+
+
+<script src = "script.js"></script>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.
+js"></script>
 </html>
+

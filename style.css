@@ -108,7 +108,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     border-style:double;
-    color: white;
+    color: black;
     
 
 }
@@ -120,28 +120,26 @@ body {
     margin-left: 15px;
     border-radius: 15px;
     
+    
 }  
-
-.col-10 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 15px;
-  
+.currentCity {
+    color: #fff;
+    font-size: larger;
+    display: grid;
+    justify-content: center;
 }
+
 
 .cards {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 15px;
-  background-color: var(--text_light);
-  color: var(--text_dark);
+  
+  color: black;
   border: solid;
-  border-color:var(--text_dark);
+  border-color:rgb(3, 3, 99);
   border-radius: 2.5px;
+  background-color: rgb(94, 160, 108);
 }
 
-.cards p{
-  color:var(--text_dark)
-}
