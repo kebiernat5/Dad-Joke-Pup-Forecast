@@ -122,23 +122,15 @@ body {
     
 }  
 
-.col-10 {
+#burrito {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 15px;
-  
-}
-
-.cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 15px;
+  border: solid;
+  border-color: var(--text_dark);
   background-color: var(--text_light);
   color: var(--text_dark);
-  border: solid;
-  border-color:var(--text_dark);
   border-radius: 2.5px;
 }
 
