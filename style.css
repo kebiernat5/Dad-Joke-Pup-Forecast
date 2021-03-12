@@ -42,6 +42,9 @@ ul {
 body {
     background: var(--bg_main);
 }
+.puppy {
+  width: 50%;
+}
 
 .top-banner {
     color: var(--text_light);
