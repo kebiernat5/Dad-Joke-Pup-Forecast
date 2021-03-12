@@ -23,8 +23,7 @@ function httpGet(theUrl) {
     var randomPhotoIndex = Math.floor(Math.random() * array.length);
     image.innerHTML = `<img src="https://random.dog/${array[randomPhotoIndex]}">`;
   
-    // set the src of the image object
-    image.src = url;
+    
   }
   getRandomImage();
   fetch("https://icanhazdadjoke.com/", {
