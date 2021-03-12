@@ -30,9 +30,17 @@ button, input {
 }
 
 img {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
     height: auto;
     display: block;
     max-width: 100%;
+    border: solid;
+    padding: 15px;
+    background-color: var(--text_light);
+    border-color: var(--text_medium);
+    border-width: 5px;
 }
 
 ul {
