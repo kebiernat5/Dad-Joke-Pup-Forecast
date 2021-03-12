@@ -14,6 +14,38 @@
     box-sizing: border-box;
 }
 
+.top-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  width: auto;
+  flex-direction: center;
+  margin: auto;
+  padding: 40px;
+  font-size: 50px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  padding: 15px;
+}
+
+.form-control {
+  border: solid;
+  border-width: 1px;
+  padding: 5px;
+  background-color: var(--text_light);
+  border-radius: 2.5px;
+  color:var(--text_dark)
+}
+
 button {
     cursor: pointer;
 }

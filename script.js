@@ -10,7 +10,7 @@ function httpGet(theUrl) {
 function getRandomImage() {
   // get the json from the server
   var json = httpGet("https://random.dog/doggos");
-  console.log(json);
+  // console.log(json);
   // get the image object
   var image = document.querySelector(".puppy");
   // decode the json into an array
