@@ -15,21 +15,16 @@ function getRandomImage()
   console.log(json);
   // get the image object 
 var image = document.querySelector('.puppy');
+
   // decode the json into an array
   var array = JSON.parse(json);
   console.log(array);
   
   // get the image url from the array
   var url = array.message;
-  console.log(url);
-  console.log(image)
-
-  for (let index = 0; index < 150; index++) {
-    image.innerHTML = `<img src="https://random.dog/${array[index]}">`;
-    
+  for (let index = 0; index < 200; index++) {
+    image.innerHTML = `<img src="https://random.dog/${array[index]}">`;  
 }
- 
-  
   
   // set the src of the image object
   image.src = url;
