@@ -126,7 +126,8 @@ function httpGet(theUrl) {
   function buildForecast(forecast) {
     // Container for the forecast
     var col = document.createElement("div");
-    col.classList.add("col");
+
+    col.classList.add("col", "cards");
     var forecastContainer = document.createElement("div");
     forecastContainer.classList.add("big-primary", "rounded", "p-5");
   
