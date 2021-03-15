@@ -53,6 +53,17 @@ function httpGet(theUrl) {
   var currentCity = document.querySelector("#currentCity");
   var searchedCities = document.querySelector("#searchedCities");
   
+
+  searchedCities.addEventListener("click", function(e){
+    if (!e.target.matches("p")) {
+      return
+    }
+    var cityName = e.target.textContent;
+    getWeather(cityName);
+  });
+
+
+  
   function renderSearchedCities() {
       searchedCities.innerHTML = "";
     for (i = 0; i < weatherHistory.length; i++) {
@@ -116,7 +127,7 @@ function httpGet(theUrl) {
     cityForecast.innerHTML = "";
 
 
-    for (i = 0; i < 5; i++) {
+    for (i = 1; i < 6; i++) {
       var forecastIndex = data.daily[i];
       console.log(forecastIndex);
       cityForecast.append(buildForecast(forecastIndex));
@@ -189,5 +200,6 @@ function httpGet(theUrl) {
     weatherHistory = [];
     searchedCities.innerHTML = "";
   });
-  // Myrla.....
+
+
   
