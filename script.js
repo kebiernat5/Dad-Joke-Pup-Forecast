@@ -158,7 +158,7 @@ function httpGet(theUrl) {
   
     // Append to forecast Container
     forecastContainer.append(
-      forecastDate,
+      forecastDateEl,
       forecastImg,
       forecastTemp,
       forecastHumidity
