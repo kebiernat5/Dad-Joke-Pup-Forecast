@@ -1,25 +1,22 @@
 :root {
-  --bg_main: #215f2b;
+  --bg_main: #215F2B;
   --text_light: #fff;
-  --text_medium: #8362ad;
-  --text_dark: #5914a8;
-  --red: #2c95a3;
-  --dark_red: #084e63;
-  --orange: #ff8c00;
+  --text_medium: #8362AD;
+  --text_dark: #5914A8;
+  --red: #2C95A3;
+  --dark_red: #084E63;
+  --orange: #FF8C00;
 }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 .top-banner {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-
 .heading {
   display: flex;
   width: auto;
@@ -28,7 +25,6 @@
   padding: 40px;
   font-size: 50px;
 }
-
 .navbar {
   display: flex;
   flex-direction: row;
@@ -36,7 +32,6 @@
   margin: auto;
   padding: 15px;
 }
-
 .form-control {
   border: solid;
   border-width: 1px;
@@ -45,16 +40,13 @@
   border-radius: 2.5px;
   color: var(--text_dark);
 }
-
 button {
   cursor: pointer;
   border: solid;
 }
-
 input {
   -webkit-appearance: none;
 }
-
 button,
 input {
   border: none;
@@ -62,7 +54,6 @@ input {
   outline: none;
   color: inherit;
 }
-
 img {
   display: flex;
   margin: auto;
@@ -76,7 +67,6 @@ img {
   border-color: var(--text_medium);
   border-width: 5px;
 }
-
 #dad {
   display: flex;
   flex-direction: row;
@@ -90,19 +80,20 @@ img {
   border-color: var(--text_medium);
   background-color: var(--text_light);
 }
-
 ul {
   list-style: none;
 }
-
 body {
   background: var(--bg_main);
 }
 .puppy {
   width: 50%;
   display: table-cell;
-}
 
+
+  margin: auto;
+
+}
 .top-banner {
   color: var(--text_light);
 }
@@ -116,15 +107,15 @@ p {
   color: black;
 }
 #forecast {
-
     display:flex;
     justify-content:flex-start;
     justify-content: space-between;
     padding: 10px;
     margin-left: 15px;
     border-radius: 15px;
-    
 }  
+
+
 
 .itemBlock {
     align-items: center;
@@ -141,25 +132,24 @@ p {
   margin-bottom: 25px;
   color: #fff;
   font-size: larger;
-  
+
+
+
 }
-
 .cards {
-
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 15px;
-
   border: solid;
   border-color: var(--text_dark);
   background-color: var(--text_light);
   color: var(--text_dark);
-
   color: black;
   border: solid;
   border-color: rgb(3, 3, 99);
-
   border-radius: 2.5px;
   background-color: rgb(94, 160, 108);
+  margin-left: 5px;
+  margin-right: 5px;
 }
