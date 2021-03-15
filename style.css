@@ -89,6 +89,7 @@ body {
 .puppy {
   width: 50%;
   display: table-cell;
+  margin: auto;
 }
 .top-banner {
   color: var(--text_light);
@@ -140,4 +141,6 @@ p {
   border-color: rgb(3, 3, 99);
   border-radius: 2.5px;
   background-color: rgb(94, 160, 108);
+  margin-left: 5px;
+  margin-right: 5px;
 }
