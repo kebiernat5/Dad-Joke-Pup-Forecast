@@ -89,7 +89,10 @@ body {
 .puppy {
   width: 50%;
   display: table-cell;
+
+
   margin: auto;
+
 }
 .top-banner {
   color: var(--text_light);
@@ -111,6 +114,9 @@ p {
     margin-left: 15px;
     border-radius: 15px;
 }  
+
+
+
 .itemBlock {
     align-items: center;
     text-align: center;
@@ -126,6 +132,9 @@ p {
   margin-bottom: 25px;
   color: #fff;
   font-size: larger;
+
+
+
 }
 .cards {
   display: flex;
