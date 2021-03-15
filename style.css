@@ -88,12 +88,10 @@ body {
 }
 .puppy {
   width: 50%;
-  display: table-cell;
-
-
+  display: flex;
   margin: auto;
-
 }
+
 .top-banner {
   color: var(--text_light);
 }
@@ -152,4 +150,5 @@ p {
   background-color: rgb(94, 160, 108);
   margin-left: 5px;
   margin-right: 5px;
+  align-items: center;
 }
